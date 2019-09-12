@@ -2,14 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './appStyles.css'
-import styles from './appStyles.module.css'
-import Form from './components/Form';
-import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA />
+      <RefsDemo />
     </div>
   );
 }
